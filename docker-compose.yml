@@ -6,7 +6,7 @@ services:
     ports:
       - "8983:8983"
     volumes:
-      - data:/opt/solr/server/solr/datacite
+      - data:/opt/solr/server/solr/home
   db:
     environment:
       MYSQL_DATABASE: datacite
